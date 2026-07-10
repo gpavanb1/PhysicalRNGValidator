@@ -1,5 +1,7 @@
 # RT Instability Physical RNG Validator
 
+**Medium Article** - [link](https://gpavanb.medium.com/generating-highly-random-numbers-from-fluid-instability-simulations-e37c38749fa9)
+
 Extract randomness from Rayleigh-Taylor (RT) instability simulation output and statistically compare it against cryptographic and physical reference sources: [Cloudflare drand](https://drand.cloudflare.com), [ANU QRNG](https://qrng.anu.edu.au), and optional Geiger counter data.
 
 Entropy extraction follows Cloudflare's [lavarand](https://blog.cloudflare.com/randomness-101-lavarand-in-production/) principle: capture a chaotic physical system as an image (or interface state), hash the pixel/field data, and run statistical tests alongside established randomness beacons.
